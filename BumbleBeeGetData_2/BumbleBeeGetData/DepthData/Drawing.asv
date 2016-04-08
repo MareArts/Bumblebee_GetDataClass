@@ -1,0 +1,5 @@
+clc;
+clear all;
+load Depth1.txt
+
+plot3(Depth1(:,1,:),Depth1(:,2,:),Depth1(:,3,:),'.', ,'MarkerSize',3);
